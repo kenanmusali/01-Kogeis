@@ -14,23 +14,23 @@ html {
     height: 100%;
     background-color: #F3EDE1;
     overflow-x: hidden;
-    padding:0.5vw 0.2vw;
+    padding: 0.5vw 0.2vw;
 }
 
 ::-webkit-scrollbar {
     width: 8px;
-    
-  }
-  
-  ::-webkit-scrollbar-track {
+
+}
+
+::-webkit-scrollbar-track {
     background: #F3EDE1;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background-color: #333F72;
     border-radius: 6px;
-  }
-  
+}
+
 .container {
     width: 100%;
     height: 100%;
@@ -40,6 +40,12 @@ html {
     width: 100%;
     height: fit-content;
     padding-inline: 4vw;
+}
+
+.rowUser {
+    width: 100%;
+    height: fit-content;
+    padding-inline: 2vw;
 }
 
 .header {
@@ -125,7 +131,8 @@ h1 {
     padding: 0;
 }
 
-.img1, .img2 {
+.img1,
+.img2 {
     position: absolute;
     height: 30vw;
     top: 4vw;
@@ -174,7 +181,7 @@ h2 {
     color: #333F72;
 }
 
-.imgSection{
+.imgSection {
     border: 1px solid #333F72;
     width: 18vw;
     height: 22.8vw;
@@ -220,13 +227,13 @@ h2 {
     font-size: 1vw;
 }
 
-.button{
+.button {
     font-family: 'Plush-Bold', sans-serif;
     color: #E56E0C;
     font-size: 1vw;
     border: 1px solid #E56E0C;
     background-color: #F3EDE1;
-    height:4vw;
+    height: 4vw;
     border-radius: 2vw 0.2vw 2vw 0.2vw;
     -webkit-border-radius: 2vw 0.2vw 2vw 0.2vw;
     -moz-border-radius: 2vw 0.2vw 2vw 0.2vw;
@@ -244,4 +251,157 @@ button:hover {
     width: 100%;
     height: fit-content;
     justify-content: space-around;
+    margin-bottom: 8vw;
+}
+
+.img4 {
+    position: relative;
+    height: 19vw;
+}
+
+.divUser {
+    display: flex;
+    position: relative;
+}
+
+.user2 {
+    margin-top: 10vw;
+}
+
+.desc1 {
+    font-family: 'Plush-regular', sans-serif;
+    position: relative;
+    z-index: 1;
+    bottom: 17vw;
+    width: 20vw;
+    font-size: 0.9vw;
+    color: #333F72;
+    left: 8vw;
+}
+
+.desc2 {
+    font-family: 'Plush-Regular-Italic', sans-serif;
+    position: relative;
+    z-index: 1;
+    bottom: 16.5vw;
+    width: 20vw;
+    font-size: 1vw;
+    color: #333F72;
+    left: 8vw;
+}
+
+.desc3 {
+    font-family: 'Plush-regular', sans-serif;
+    position: relative;
+    z-index: 1;
+    bottom: 16vw;
+    width: 20vw;
+    font-size: 0.9vw;
+    color: #333F72;
+    left: 9vw;
+}
+
+.desc4 {
+    font-family: 'Plush-Regular-Italic', sans-serif;
+    position: relative;
+    z-index: 1;
+    bottom: 15.5vw;
+    width: 20vw;
+    font-size: 1vw;
+    color: #333F72;
+    left: 9vw;
+}
+
+.desc5 {
+    font-family: 'Plush-regular', sans-serif;
+    position: relative;
+    z-index: 1;
+    bottom: 17vw;
+    width: 20vw;
+    font-size: 0.9vw;
+    color: #333F72;
+    left: 4vw;
+}
+
+.desc6 {
+    font-family: 'Plush-Regular-Italic', sans-serif;
+    position: relative;
+    z-index: 1;
+    bottom: 16.5vw;
+    width: 20vw;
+    font-size: 1vw;
+    color: #333F72;
+    left: 4vw;
+}
+
+
+/*  */
+
+
+
+
+
+
+.footer {
+    border-radius: 1vw 1vw 0vw 0vw;
+    background-color: #1D2544;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    height: 21vw;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 4vw;
+    -webkit-border-radius: 1vw 1vw 0vw 0vw;
+    -moz-border-radius: 1vw 1vw 0vw 0vw;
+    -ms-border-radius: 1vw 1vw 0vw 0vw;
+    -o-border-radius: 1vw 1vw 0vw 0vw;
+}
+
+.div-footer {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    line-height: 2vw;
+    height: fit-content;
+
+}
+
+.div-footersec1 {
+    color: white;
+    font-family: 'Plush-Light', sans-serif;
+    font-size: 1vw;
+}
+
+.space {
+    margin-left: 0.5vw;
+}
+
+.div-descfooter1 {
+    align-items: end;
+    display: flex;
+    font-size: 1vw;
+    margin-bottom: 0.3vw;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+
+.logo1 {
+    font-family: 'Plush-Bold', sans-serif;
+    font-size: 2vw;
+    color: white;
+}
+
+.liText {
+    color: rgb(175, 175, 175);
+}
+
+.footer1 {
+    width: 100%;
 }
