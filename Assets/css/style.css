@@ -165,5 +165,83 @@ h1 {
     height: 4vw;
 }
 
+h2 {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    text-align: center;
+    font-family: 'Plush-Regular', sans-serif;
+    font-size: 2.5vw;
+    color: #333F72;
+}
 
+.imgSection{
+    border: 1px solid #333F72;
+    width: 18vw;
+    height: 22.8vw;
+    border-radius: 3.5vw 0.2vw 3.5vw 0.2vw;
+    -webkit-border-radius: 3.5vw 0.2vw 3.5vw 0.2vw;
+    -moz-border-radius: 3.5vw 0.2vw 3.5vw 0.2vw;
+    -ms-border-radius: 3.5vw 0.2vw 3.5vw 0.2vw;
+    -o-border-radius: 3.5vw 0.2vw 3.5vw 0.2vw;
+}
 
+/* .img3 {
+    height: 15vw;
+} */
+
+.img3 {
+    height: 10vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5vw 1.5vw;
+}
+
+.name {
+    font-size: 2vw;
+    font-family: 'Plush-Bold', sans-serif;
+    color: #333F72;
+}
+
+.text0 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0.5vw;
+}
+
+.count {
+    color: #333F72;
+    font-size: 1vw;
+}
+
+.button{
+    font-family: 'Plush-Bold', sans-serif;
+    color: #E56E0C;
+    font-size: 1vw;
+    border: 1px solid #E56E0C;
+    background-color: #F3EDE1;
+    height:4vw;
+    border-radius: 2vw 0.2vw 2vw 0.2vw;
+    -webkit-border-radius: 2vw 0.2vw 2vw 0.2vw;
+    -moz-border-radius: 2vw 0.2vw 2vw 0.2vw;
+    -ms-border-radius: 2vw 0.2vw 2vw 0.2vw;
+    -o-border-radius: 2vw 0.2vw 2vw 0.2vw;
+}
+
+button:hover {
+    background-color: #E56E0C;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+}
